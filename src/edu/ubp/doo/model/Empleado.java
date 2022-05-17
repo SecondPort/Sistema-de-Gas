@@ -3,7 +3,7 @@ package edu.ubp.doo.model;
 import java.util.ArrayList;
 
 public class Empleado extends Persona {
-    private Persona persona;
+    private final Persona persona;
     private String cargo;
     private Double salario;
     private ArrayList<Distribuidor> distribuidores;
