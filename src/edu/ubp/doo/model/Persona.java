@@ -47,4 +47,6 @@ public class Persona{
     public void setTelefono(String telefono){
         this.telefono = telefono;
     }
+
+    //para poder imprimir el objeto debemos usar el metodo toString
 }
