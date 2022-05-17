@@ -6,7 +6,7 @@ public class Cliente extends Persona {
     private String razonSocial;
     private String direccion;
 
-    public Cliente(String nombre, String apellido, String telefono) {
+    public Cliente(String nombre, String apellido, String telefono, String razonSocial, String direccion) {
         super();
     }
 
@@ -22,5 +22,7 @@ public class Cliente extends Persona {
     public void setDireccion(String direccion){
         this.direccion = direccion;
     }
+
+    //para poder imprimir el objeto debemos usar el metodo toString
 
 }
